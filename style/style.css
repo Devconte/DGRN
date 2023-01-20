@@ -1,14 +1,24 @@
-h1{
-    background-color: red;
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+
+:root {
+   --color-red:#c00000;
+   --color-yellow:#ffc000;
+   --color-green:#70ad47;
+   --color-blue:#5b9bd5;
 }
 
-nav {
+.nav-links {
     max-width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 50px;
-    background-color: red;
+    background-color: var(--color-red);
+    
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 main img {
@@ -17,7 +27,54 @@ main img {
 }
 
 nav a {
-    border: 1px solid black;
-    background-color: aqua;
-    ;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px 0px 40px 0px;
+    border: 2px red solid;
+    margin-bottom: 20px;
+    
+}
+
+.presta-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.prestations {
+    border: 1px red solid;
+    width: 15%;
+    height: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.prestations h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 20px;
+    
+
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    
+    border: 1px red solid;
+    height: 5%;
 }
