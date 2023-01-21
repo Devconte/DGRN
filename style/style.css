@@ -1,6 +1,12 @@
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Roboto Slab', serif;*/
+/*
 
+possible de changer couleur font awesome avec ce code 
+.fa-satellite {
+    color: red;
+}
+*/
 
 :root {
    --color-red:#c00000;
@@ -15,11 +21,15 @@ font-family: 'Roboto Slab', serif;*/
     flex-direction: row;
     justify-content: space-between;
     padding: 50px;
-    background-color: var(--color-red);
-    
+    background-color: #5b9bd5;
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.contact a {
+    color: black;
+}
+
 
 main img {
     width: 100vw;
@@ -73,8 +83,39 @@ main h1 {
 footer {
     display: flex;
     justify-content: space-evenly;
-    width: 100vw;
+    
     
     border: 1px red solid;
     height: 5%;
+}
+
+
+
+.colors {
+    display: flex;
+    flex-direction: row;
+}
+
+.red{
+    background-color: var(--color-red);
+    width: 10px;
+    height: 100px;
+}
+
+.blue {
+    background-color: var(--color-blue);
+    width: 10px;
+    height: 100px;
+}
+
+.yellow {
+    background-color: var(--color-yellow);
+    width: 10px;
+    height: 100px;
+}
+
+.green {
+    background-color: var(--color-green);
+    width: 10px;
+    height: 100px;
 }
