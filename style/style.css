@@ -15,6 +15,17 @@ possible de changer couleur font awesome avec ce code
    --color-blue:#5b9bd5;
 }
 
+body{}
+
+.start {
+    width: ;
+   display: flex;
+}
+
+.start .colors {
+    align-items: center;
+}
+
 .nav-links {
     max-width: 100%;
     display: flex;
@@ -58,7 +69,7 @@ main h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+ ;
 }
 
 .prestations {
@@ -91,10 +102,6 @@ footer {
 
 
 
-.colors {
-    display: flex;
-    flex-direction: row;
-}
 
 .red{
     background-color: var(--color-red);
